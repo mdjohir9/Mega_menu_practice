@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-----mani manu start------*/
+.main-menu{
+    background-color: #E8EBED;
+
+}
+
+.main-menu ul{
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+.main-menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+ .main-menu ul li:hover{
+    background-color: #CE6D2D;
+} 
+.main-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px;
+    color: black;
+}
+
+.main-menu ul ul.sub-menu ,.main-menu ul ul.mega-menu{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background: #CE6D2D;
+    width: 200px;
+    display: none;
+}
+.main-menu ul ul.sub-menu > li{
+    width: 100%;
+    
+
+}
+
+.main-menu ul li:hover > ul{
+    display: block;
+    background-color: #f0eded;
+}
+
+.main-menu .mega-menu li:hover{
+    color: green;
+    
+    
+    
+}
+
+.main-menu ul ul.mega-menu{
+    width: 900px;
+    padding: 20px;
+   
+}
+
+.main-menu ul ul.mega-menu>li:last-child{
+    margin-right: 0px;
+
+}
+
+.main-menu ul ul.mega-menu>li{
+    width: 23%;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.main-menu ul ul.mega-menu ul li{
+    width: 100%;
+}
+
+.main-menu ul ul.mega-menu > li >a{
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/*-----mani manu end------*/
+
+
